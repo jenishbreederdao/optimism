@@ -9,7 +9,7 @@
   --rollup.config=./rollup.json \
   --rpc.addr=0.0.0.0 \
   --rpc.port=8547 \
-  --p2p.disable \
+  --p2p.disable=$P2P_DISABLE \
   --rpc.enable-admin \
   --p2p.sequencer.key=$GS_SEQUENCER_PRIVATE_KEY \
   --l1=$L1_RPC_URL \
