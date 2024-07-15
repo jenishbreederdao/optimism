@@ -10,6 +10,7 @@
   --rpc.addr=0.0.0.0 \
   --rpc.port=8547 \
   --p2p.disable=$P2P_DISABLE \
+  --p2p.listen.tcp=$OP_NODE_P2P_PORT \
   --rpc.enable-admin \
   --p2p.sequencer.key=$GS_SEQUENCER_PRIVATE_KEY \
   --l1=$L1_RPC_URL \
