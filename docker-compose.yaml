@@ -17,6 +17,7 @@ services:
       - op-network
     ports:
       - 8547:8547
+      - ${OP_NODE_P2P_PORT}:${OP_NODE_P2P_PORT}
 
   op-batcher:
     container_name: op-batcher
